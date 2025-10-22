@@ -1,51 +1,46 @@
-# 🧾 TCL Workshop — Detailed Documentation  
+
+# 🧾 TCL Workshop — From Basic to Advanced in VLSI  
 
 ## 🔰 Introduction  
-This documentation is based on the **TCL Workshop — From Basic to Advanced in VLSI**.  
-The workshop was designed to help participants understand the role of **TCL scripting** in the automation of EDA tools used in the VLSI domain.  
+This repository documents my learnings from the **VSD TCL Workshop**, designed to strengthen scripting skills for automation in the VLSI domain.  
+Throughout the sessions, I learned how TCL can simplify design tool interactions, automate tasks, and create efficient workflows used in the semiconductor industry.  
 
 ---
 
 ## 🎯 Objectives  
-- To gain hands-on knowledge of TCL commands and syntax  
-- To automate design flows and tool setups  
-- To understand how TCL integrates into EDA tools  
-- To practice real-time examples related to timing analysis, constraint setup, and report generation  
+- Understand TCL syntax and its use in EDA tools  
+- Learn how to automate repetitive design and analysis tasks  
+- Implement loops, conditionals, and procedures for tool control  
+- Apply TCL scripting for timing reports, constraint management, and log parsing  
 
 ---
 
 ## ⚙️ Tools & Environment  
 | Tool | Purpose |
 |------|----------|
-| Linux Terminal | Executing TCL scripts |
-| Git & GitHub | Version control & code management |
-| EDA Tools (Cadence/Synopsys) | Design automation & scripting |
-| VS Code | Script editing environment |
+| Linux Terminal | TCL execution and command-line scripting |
+| Git & GitHub | Version control and code management |
+| VS Code | Writing and editing TCL scripts |
+| Synopsys / Cadence EDA tools | VLSI automation and analysis |
+| Markdown (.md) | Documentation formatting |
 
 ---
 
-## 📆 Workshop Structure  
+## 📅 Workshop Structure  
 
-| Day | Topics Covered | Hands-On Tasks |
-|-----|----------------|----------------|
-| **Day 1** | Introduction to TCL, Syntax, Variables | Creating basic scripts, print statements |
-| **Day 2** | Conditionals & Loops | Automate repetitive tasks using loops |
-| **Day 3** | Procedures & Arguments | Creating reusable TCL functions |
-| **Day 4** | File Handling & Data Extraction | Reading reports and writing automated logs |
-| **Day 5** | Advanced Use in VLSI Flow | Tool automation, report generation, final project |
-
----
-
-## 🧠 Concepts Covered  
-
-- **Variables:** set, unset, global/local scope  
-- **Loops:** for, foreach, while  
-- **Conditionals:** if–elseif–else  
-- **Procedures:** proc, arguments, return values  
-- **File operations:** open, gets, puts, close  
-- **Lists & Arrays:** storing data in multiple forms  
-- **Integration:** using TCL for batch commands in EDA tools  
+| Day | Topics | Practice / Tasks |
+|-----|--------|------------------|
+| **Day 1** | TCL basics, syntax, and commands | Write a simple TCL script and print messages |
+| **Day 2** | Variables, conditionals, and loops | Automate simple repetitive tasks |
+| **Day 3** | Procedures, arguments, and modular code | Create reusable TCL functions |
+| **Day 4** | File handling and report generation | Extract data from timing logs |
+| **Day 5** | Integrating TCL with design flows | Automate constraint and report analysis |
 
 ---
 
+## 🧠 Key Concepts  
 
+### 🟡 Variables & Data Types  
+```tcl
+set name "Shyamli"
+puts "Hello $name"
