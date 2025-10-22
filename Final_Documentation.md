@@ -43,4 +43,4 @@ Throughout the sessions, I learned how TCL can simplify design tool interactions
 ### 🟡 Variables & Data Types  
 ```tcl
 set name "Shyamli"
-puts "Hello $name"
+
